@@ -1,11 +1,8 @@
 import streamlit as st
 import pandas as pd
-import matplotlib.pyplot as plt
-import sys
 
 st.title("Simple Data Dashboard")
 
-st.write(f"Python version: {sys.version}")
 
 uploaded_file = st.file_uploader("Choose a CSV file", type="csv")
 
